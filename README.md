@@ -1,6 +1,6 @@
 # Simple Python Projects
 
-## Projects
+## List of Projects
 - Escape
 - Hangman
 - Scrabble Point Counter
