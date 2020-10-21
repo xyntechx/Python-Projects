@@ -1,4 +1,4 @@
-# Simple-Python-Projects
+# Simple Python Projects
 
 ## Projects
 - Hangman
