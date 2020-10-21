@@ -1,2 +1,7 @@
 # Simple-Python-Projects
-This is a collection of simple Python projects by me!
+
+## Projects
+- Hangman
+- TicTacToe
+- Scrabble point counter
+- Escape (a text-based adventure game)
