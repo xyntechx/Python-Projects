@@ -1,7 +1,7 @@
 # Simple Python Projects
 
 ## Projects
-- Escape (a text-based adventure game)
+- Escape
 - Hangman
 - Scrabble Point Counter
 - TicTacToe
