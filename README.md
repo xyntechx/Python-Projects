@@ -1,4 +1,4 @@
-# Simple Python Projects
+# Python Projects
 
 ## List of Projects
 - Escape
