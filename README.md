@@ -1,6 +1,4 @@
-# Python Projects
-
-## List of Projects
+# List of Projects (in alphabetical order)
 - Escape
 - Hangman
 - Scrabble Point Counter
