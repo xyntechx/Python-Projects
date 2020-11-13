@@ -1,5 +1,6 @@
 from random import randint
 
+
 # C L A S S E S
 class Color:
     CYAN = "\033[96m"
