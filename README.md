@@ -4,3 +4,4 @@
 - Portal
 - Scrabble Point Counter
 - TicTacToe
+- Word Wars
