@@ -1,4 +1,7 @@
 import random
+import colorama
+
+colorama.init()
 
 class Color:
     PURPLE = '\033[95m' #when using items
