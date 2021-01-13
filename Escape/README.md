@@ -1,6 +1,9 @@
 # Escape
 This is a text-based adventure game set in a 10x10 maze (although to be fair, it's just a room that you have to escape from _haha_). This is an original game I programmed to keep me and you entertained because honestly, it's a pretty fun one. All in all, feel free to play the game yourself and I hope you find it exciting!
 
+## Installations
+To run this program, please install [colorama](https://pypi.org/project/colorama/) on your machine!
+
 ## Information on In-game Items
 ### Food
 (legend: _food name_ --> _number of health points regenerated_)
