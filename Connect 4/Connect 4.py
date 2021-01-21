@@ -1,3 +1,5 @@
+import colorama
+
 # CLASSES
 class Colour:
     BOLD = "\033[1m"
