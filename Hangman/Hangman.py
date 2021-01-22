@@ -1,7 +1,5 @@
 from random import randint
 
-words = []
-
 with open("words.txt") as file:
     words = [word.strip() for word in file]
 
