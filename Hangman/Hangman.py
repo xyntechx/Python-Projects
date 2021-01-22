@@ -3,7 +3,7 @@ from random import randint
 with open("words.txt") as file:
     words = [word.strip() for word in file]
 
-def replaceBlanks(answer, blanks, word):
+def replace_blanks(answer, blanks, word):
     blanks_list = list(blanks)
     letter_count = word.count(answer)
     while letter_count > 0:
@@ -25,7 +25,7 @@ while "_" in blanks:
     print("The following letters have been used:", used_letters)
     answer = input("Enter Letter: ").lower()
     if answer in word:
-        blanks = replaceBlanks(answer, blanks, word)
+        blanks = replace_blanks(answer, blanks, word)
     else:
         print("Oops! The letter", answer, "is not in the word...")
     tries += 1
