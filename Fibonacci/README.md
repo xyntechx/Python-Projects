@@ -9,7 +9,7 @@ To do so, call the `build_fib_recursive(n)` function, where `n` is the number of
 ## 🔁 Building the Fibonacci Sequence Iteratively
 To do so, call the `build_fib_iterative(n)` function, where `n` is the number of elements in the sequence. The function thus utilises iteration to return a Fibonacci sequence of n elements. As a side note, `build_fib_iterative(n)` is more time-efficient than `build_fib_recursive(n)`.
 
-> See Note in [Building the Fibonacci Sequence Recursively](#build-fib-recursive)
+> See Note in **Building the Fibonacci Sequence Recursively**
 
 ## 🔎 Finding the Index of an Element in the Fibonacci Sequence
 To do so, call the `find_index(n)` function, where `n` is the integer whose index in the Fibonacci sequence is to be found. The function will return the index of `n` (0-indexed) in the Fibonacci sequence. Do note that `n` may or may not be in the sequence and thus the function will return a 404 message in this case.
