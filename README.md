@@ -1,7 +1,7 @@
 # Python Projects
 This repository is home to the many simple Python projects I have created!
 
-# Games
+## Games
 - Connect 4
 - Escape
 - Hangman
@@ -9,6 +9,6 @@ This repository is home to the many simple Python projects I have created!
 - TicTacToe
 - Word Wars
 
-# Tools
+## Tools
 - Fibonacci
 - Scrabble Point Counter
