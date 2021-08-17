@@ -1,9 +1,14 @@
-# List of Projects (in alphabetical order)
+# Python Projects
+This repository is home to the many simple Python projects I have created!
+
+# Games
 - Connect 4
 - Escape
-- Fibonacci
 - Hangman
 - Portal
-- Scrabble Point Counter
 - TicTacToe
 - Word Wars
+
+# Tools
+- Fibonacci
+- Scrabble Point Counter
