@@ -9,7 +9,7 @@ or
 ```bash
 python3 <name>.py
 ```
-Note: Replace `<name>` with the name of the file you are running
+Note: Replace `<name>` with the name of the file you are running.
 
 ## 📚 Content
 
