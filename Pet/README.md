@@ -16,10 +16,10 @@ python3 main.py
 ```
 
 ## 🗺 Folder Structure
-- `main.py`: main program to run
-- `pet.py`: Pet class (+ subclasses) definition
-- `utility.py`: miscellaneous functions
-- `keyboard_settings.py`: set up keyboard listener
+- [`main.py`](https://github.com/xyntechx/Python-Projects/blob/main/Pet/main.py): main program to run
+- [`pet.py`](https://github.com/xyntechx/Python-Projects/blob/main/Pet/pet.py): Pet class (+ subclasses) definition
+- [`utility.py`](https://github.com/xyntechx/Python-Projects/blob/main/Pet/utility.py): miscellaneous functions
+- [`keyboard_settings.py`](https://github.com/xyntechx/Python-Projects/blob/main/Pet/keyboard_settings.py): set up keyboard listener
 
 ## 👾 How to Play
 See the instructions below to learn how to play Pet!
@@ -48,10 +48,10 @@ If any of the above stats reaches `0`, it's game over!
 
 ### ❤️ Taking Care of Your Pet
 Press these keys to take care of your pet:
-- `h`: Feed your pet
-- `t`: Give your pet a drink
-- `e`: Let your pet sleep
-- `f`: Make your pet exercise
-- `m`: Play with your pet
+- `h`: Feed your pet (hunger)
+- `t`: Give your pet a drink (thirst)
+- `e`: Let your pet sleep (energy)
+- `f`: Make your pet exercise (fitness)
+- `m`: Play with your pet (mental health)
 
 Every time you press any of the above keys, the corresponding stat will increase by `1`.
