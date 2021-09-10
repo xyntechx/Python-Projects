@@ -12,12 +12,13 @@ python3 <name>.py
 Note: Replace `<name>` with the name of the file you are running.
 
 ## 📚 Content
+> ✨: latest project
 
 ### 🎮 Games
 - [Connect 4](https://github.com/xyntechx/Python-Projects/tree/main/Connect%204)
 - [Escape](https://github.com/xyntechx/Python-Projects/tree/main/Escape)
 - [Hangman](https://github.com/xyntechx/Python-Projects/tree/main/Hangman)
-- [Pet](https://github.com/xyntechx/Python-Projects/tree/main/Pet)
+- [Pet](https://github.com/xyntechx/Python-Projects/tree/main/Pet) ✨
 - [Portal](https://github.com/xyntechx/Python-Projects/tree/main/Portal)
 - [TicTacToe](https://github.com/xyntechx/Python-Projects/tree/main/TicTacToe)
 - [Word Wars](https://github.com/xyntechx/Python-Projects/tree/main/Word%20Wars)
