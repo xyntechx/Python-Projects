@@ -24,6 +24,8 @@ python3 main.py
 
 [`keyboard_settings.py`](https://github.com/xyntechx/Python-Projects/blob/main/Pet/keyboard_settings.py): set up keyboard listener
 
+[`colours.py`](https://github.com/xyntechx/Python-Projects/blob/main/Pet/colours.py): initialise colours
+
 ## 👾 How to Play
 See the instructions below to learn how to play Pet!
 
