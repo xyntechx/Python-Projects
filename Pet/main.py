@@ -1,8 +1,12 @@
 from pet import Pet
 from utility import set_difficulty, get_stat_ints, get_stats, get_random_stat, play
 from keyboard_settings import start_keyboard
+from colours import RED, END
 import time
+import colorama
 
+
+colorama.init()
 
 try:
     name = input("Name of pet: ")
@@ -41,23 +45,23 @@ try:
             # TODO: Replace with match case once Python 3.10 rolls around
             if stat == 0:
                 pet.set_hunger()
-                print("Hunger:", pet.get_hunger())
+                print(RED + "Hunger -1 (" + str(pet.get_hunger()) + ")" + END)
 
             elif stat == 1:
                 pet.set_thirst()
-                print("Thirst:", pet.get_thirst())
+                print(RED + "Thirst -1 (" + str(pet.get_thirst()) + ")" + END)
 
             elif stat == 2:
                 pet.set_energy()
-                print("Energy:", pet.get_energy())
+                print(RED + "Energy -1 (" + str(pet.get_energy()) + ")" + END)
 
             elif stat == 3:
                 pet.set_fitness()
-                print("Fitness:", pet.get_fitness())
+                print(RED + "Fitness -1 (" + str(pet.get_fitness()) + ")" + END)
 
             elif stat == 4:
                 pet.set_mental_health()
-                print("Mental Health:", pet.get_mental_health())
+                print(RED + "Mental Health -1 (" + str(pet.get_mental_health()) + ")" + END)
 
             count += 1
 
