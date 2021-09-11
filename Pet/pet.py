@@ -1,3 +1,6 @@
+from colours import PURPLE, END
+
+
 class Pet:
     def __init__(self, name: str) -> None:
         self.name = name
@@ -18,7 +21,7 @@ class Pet:
             "Fitness: " + str(self.fitness),
             "Mental Health: " + str(self.mental_health)
         ]
-        return "\n".join(stats_list)
+        return PURPLE + "\n".join(stats_list) + END
 
     def get_name(self) -> str:
         """Return the name of your pet."""
