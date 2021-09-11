@@ -21,19 +21,12 @@ class Pet:
             "Fitness: " + str(self.fitness),
             "Mental Health: " + str(self.mental_health)
         ]
+
         return PURPLE + "\n".join(stats_list) + END
 
     def get_name(self) -> str:
         """Return the name of your pet."""
         return self.name
-
-    def change_name(self, new_name: str) -> None:
-        """Change the name of your pet.
-
-        Argument(s):
-        new_name: str -- the new name of your pet
-        """
-        self.name = new_name
 
     def get_age(self) -> int:
         """Return the age of your pet."""
