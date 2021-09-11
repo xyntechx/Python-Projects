@@ -1,4 +1,5 @@
 from pynput import keyboard
+from colours import GREEN, END
 
 
 def on_press(key, pet) -> None:
@@ -6,19 +7,19 @@ def on_press(key, pet) -> None:
         # TODO: Replace with match case once Python 3.10 rolls around
         if key.char == "h":
             pet.set_hunger(0)
-            print("\nThank you for feeding me!")
+            print(GREEN + "Hunger +1 (" + str(pet.get_hunger()) + ")" + END)
         if key.char == "t":
             pet.set_thirst(0)
-            print("\nThank you for giving me a drink!")
+            print(GREEN + "Thirst +1 (" + str(pet.get_thirst()) + ")" + END)
         if key.char == "e":
             pet.set_energy(0)
-            print("\nThank you for letting me sleep!")
+            print(GREEN + "Energy +1 (" + str(pet.get_energy()) + ")" + END)
         if key.char == "f":
             pet.set_fitness(0)
-            print("\nThank you for making me exercise!")
+            print(GREEN + "Fitness +1 (" + str(pet.get_fitness()) + ")" + END)
         if key.char == "m":
             pet.set_mental_health(0)
-            print("\nThank you for playing with me!")
+            print(GREEN + "Mental Health +1 (" + str(pet.get_mental_health()) + ")" + END)
     except AttributeError:
         if key != keyboard.Key.esc:
             print("Oops! You have pressed a special key")
