@@ -100,4 +100,4 @@ except KeyboardInterrupt:
     if tries:
         print(compile_tries(tries))
 
-    print("\nThank you for playing!")
+print("\nThank you for playing!")
