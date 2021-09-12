@@ -47,9 +47,9 @@ def get_stat_ints(stat_count: int) -> list:
     stat_int_list = []
 
     for _ in range(stat_count):
-        stat_int = randint(0, 4)
+        stat_int = randint(0, 4) # choose a random stat
 
-        while stat_int in stat_int_list:
+        while stat_int in stat_int_list: # prevent duplicate stats
             stat_int = randint(0, 4)
 
         stat_int_list.append(stat_int)
@@ -88,6 +88,21 @@ def get_random_stat(stat_int_list: list) -> int:
     stat_int_list: list -- list of stat indices
     """
     return choice(stat_int_list)
+
+
+def compile_tries(tries: dict) -> str:
+    """Return a compilation of all the tries in a session.
+    
+    Argument(s):
+    tries: dict -- a dictionary of all the tries in a session
+    """
+    result = "\n"
+
+    for index in tries:
+        result += index + "\n"
+        result += str(tries[index]) + "\n"
+
+    return result.rstrip()
 
 
 def play(pet) -> bool:
