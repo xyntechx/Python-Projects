@@ -3,6 +3,7 @@ from colours import GREEN, END
 
 
 def on_press(key, pet) -> None:
+    """On Press function for the keyboard listener."""
     try:
         # TODO: Replace with match case once Python 3.10 rolls around
         if key.char == "h":
@@ -25,11 +26,21 @@ def on_press(key, pet) -> None:
             print("Oops! You have pressed a special key")
 
 
-def start_keyboard(pet) -> None:
-    """Start keyboard listener.
-
+def setup_keyboard(pet):
+    """Set up keyboard listener.
+    
     Argument(s):
     pet: Pet -- your pet
     """
     listener = keyboard.Listener(on_press=lambda event: on_press(event, pet))
-    listener.start()
+    return listener
+
+
+def control_keyboard(listener, start_or_stop: int = 1) -> None:
+    """Control keyboard listener.
+
+    Argument(s):
+    listener: Listener -- keyboard listener
+    start_or_stop: int -- to start (value 0) or stop (value 1) (default 1)
+    """
+    listener.stop() if start_or_stop else listener.start()
