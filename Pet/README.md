@@ -1,5 +1,5 @@
 # Pet
-Pet is a Tamagotchi-esque game designed for a Python fundamentals crash course!
+Pet is a vanilla Python game inspired by Tamagotchi!
 
 ## 🔨 Usage
 ```bash
