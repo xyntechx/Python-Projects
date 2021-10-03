@@ -7,20 +7,25 @@ def on_press(key, pet) -> None:
     try:
         # TODO: Replace with match case once Python 3.10 rolls around
         if key.char == "h":
-            pet.set_hunger(0)
-            print(GREEN + "Hunger +1 (" + str(pet.get_hunger()) + ")" + END)
+            if pet.hunger < 10:
+                pet.hunger += 1
+            print(GREEN + "Hunger +1 (" + str(pet.hunger) + ")" + END)
         if key.char == "t":
-            pet.set_thirst(0)
-            print(GREEN + "Thirst +1 (" + str(pet.get_thirst()) + ")" + END)
+            if pet.thirst < 10:
+                pet.thirst += 1
+            print(GREEN + "Thirst +1 (" + str(pet.thirst) + ")" + END)
         if key.char == "e":
-            pet.set_energy(0)
-            print(GREEN + "Energy +1 (" + str(pet.get_energy()) + ")" + END)
+            if pet.energy < 10:
+                pet.energy += 1
+            print(GREEN + "Energy +1 (" + str(pet.energy) + ")" + END)
         if key.char == "f":
-            pet.set_fitness(0)
-            print(GREEN + "Fitness +1 (" + str(pet.get_fitness()) + ")" + END)
+            if pet.fitness < 10:
+                pet.fitness += 1
+            print(GREEN + "Fitness +1 (" + str(pet.fitness) + ")" + END)
         if key.char == "m":
-            pet.set_mental_health(0)
-            print(GREEN + "Mental Health +1 (" + str(pet.get_mental_health()) + ")" + END)
+            if pet.mental_health < 10:
+                pet.mental_health += 1
+            print(GREEN + "Mental Health +1 (" + str(pet.mental_health) + ")" + END)
     except AttributeError:
         if key != keyboard.Key.esc:
             print("Oops! You have pressed a special key")
@@ -28,7 +33,7 @@ def on_press(key, pet) -> None:
 
 def setup_keyboard(pet):
     """Set up keyboard listener.
-    
+
     Argument(s):
     pet: Pet -- your pet
     """
