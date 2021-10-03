@@ -47,9 +47,9 @@ def get_stat_ints(stat_count: int) -> list:
     stat_int_list = []
 
     for _ in range(stat_count):
-        stat_int = randint(0, 4) # choose a random stat
+        stat_int = randint(0, 4)  # choose a random stat
 
-        while stat_int in stat_int_list: # prevent duplicate stats
+        while stat_int in stat_int_list:  # prevent duplicate stats
             stat_int = randint(0, 4)
 
         stat_int_list.append(stat_int)
@@ -92,7 +92,7 @@ def get_random_stat(stat_int_list: list) -> int:
 
 def compile_tries(tries: dict) -> str:
     """Return a compilation of all the tries in a session.
-    
+
     Argument(s):
     tries: dict -- a dictionary of all the tries in a session
     """
