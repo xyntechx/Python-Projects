@@ -107,8 +107,8 @@ def compile_tries(tries: dict) -> str:
 
 def play(pet) -> bool:
     """Return False if any of the stats is 0."""
-    if (not pet.get_hunger()) or (not pet.get_thirst()) or (not pet.get_energy()) or (not pet.get_fitness()) or (not pet.get_mental_health()):
-        print("Oh no! Take better care of", pet.get_name(), "next time!")
+    if (not pet.hunger) or (not pet.thirst) or (not pet.energy) or (not pet.fitness) or (not pet.mental_health):
+        print("Oh no! Take better care of", pet.name, "next time!")
         print("Thank you for playing!")
         print(" - - - ")
         print(pet)
