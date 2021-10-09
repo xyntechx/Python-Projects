@@ -47,7 +47,6 @@ try:
             if end - start == duration:
                 stat = get_random_stat(stat_int_list)
 
-                # TODO: Replace with match case once Python 3.10 rolls around
                 if stat == 0:
                     pet.hunger -= 1
                     print(RED + "Hunger -1 (" + str(pet.hunger) + ")" + END)

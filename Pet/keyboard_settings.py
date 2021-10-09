@@ -5,7 +5,6 @@ from colours import GREEN, END
 def on_press(key, pet) -> None:
     """On Press function for the keyboard listener."""
     try:
-        # TODO: Replace with match case once Python 3.10 rolls around
         if key.char == "h":
             if pet.hunger < 10:
                 pet.hunger += 1

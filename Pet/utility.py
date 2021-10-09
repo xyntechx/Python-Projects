@@ -14,7 +14,6 @@ def set_difficulty(level: int) -> tuple:
     Level 4: 5 stats, stats drop every 2 seconds
     Level 5: 5 stats, stats drop every 1 second
     """
-    # TODO: Replace with match case once Python 3.10 rolls around
     if level == 1:
         stat_count = 3
         duration = 3
@@ -66,7 +65,6 @@ def get_stats(stat_int_list: list) -> list:
     stat_list = []
 
     for stat in stat_int_list:
-        # TODO: Replace with match case once Python 3.10 rolls around
         if stat == 0:
             stat_list.append("Hunger")
         elif stat == 1:
