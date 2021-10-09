@@ -18,9 +18,11 @@ try:
         print()
 
         pet = Pet(name)
+
         stat_count, duration = set_difficulty(difficulty)
         stat_int_list = get_stat_ints(stat_count)
         stat_list = get_stats(stat_int_list)
+
         count = 0
 
         print("Stats in play:\n" + "\n".join(stat_list) + "\n")
@@ -40,6 +42,7 @@ try:
 
         listener = setup_keyboard(pet)
         control_keyboard(listener, 0)  # start keyboard listener
+
         start = time.time()
 
         while play(pet):
@@ -65,7 +68,8 @@ try:
 
                 elif stat == 4:
                     pet.mental_health -= 1
-                    print(RED + "Mental Health -1 (" + str(pet.mental_health) + ")" + END)
+                    print(RED + "Mental Health -1 (" +
+                          str(pet.mental_health) + ")" + END)
 
                 count += 1
 
