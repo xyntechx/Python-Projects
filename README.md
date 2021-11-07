@@ -17,8 +17,9 @@ Note: Replace `<name>` with the name of the file you are running.
 ### 🎮 Games
 - [Connect 4](https://github.com/xyntechx/Python-Projects/tree/main/Connect%204)
 - [Escape](https://github.com/xyntechx/Python-Projects/tree/main/Escape)
+- [Free Scrabble](https://github.com/xyntechx/Python-Projects/tree/main/Free%20Scrabble) ✨
 - [Hangman](https://github.com/xyntechx/Python-Projects/tree/main/Hangman)
-- [Message](https://github.com/xyntechx/Python-Projects/tree/main/Message) ✨
+- [Message](https://github.com/xyntechx/Python-Projects/tree/main/Message)
 - [Pet](https://github.com/xyntechx/Python-Projects/tree/main/Pet)
 - [Portal](https://github.com/xyntechx/Python-Projects/tree/main/Portal)
 - [TicTacToe](https://github.com/xyntechx/Python-Projects/tree/main/TicTacToe)
