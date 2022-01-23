@@ -5,10 +5,7 @@ This repository is home to the many simple Python projects I have created!
 ```bash
 python <name>.py
 ```
-or
-```bash
-python3 <name>.py
-```
+
 Note: Replace `<name>` with the name of the file you are running.
 
 ## 📚 Content
