@@ -11,5 +11,5 @@ cd Python-Projects/"Free Scrabble"
 ```
 
 ```bash
-python3 main.py
+python main.py
 ```
