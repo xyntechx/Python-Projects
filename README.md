@@ -6,7 +6,7 @@ This repository is home to the many simple Python projects I have created!
 python <name>.py
 ```
 
-Note: Replace `<name>` with the name of the file you are running.
+Note: Replace `<name>` with the name of the file you are running!
 
 ## 📚 Content
 > ✨: latest project
