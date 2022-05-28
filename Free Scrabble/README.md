@@ -1,5 +1,5 @@
 # Free Scrabble
-A one-try, unvalidated Scrabble game coded for an Instagram post titled "The Essentials of Git"!
+A one-try, one-player Scrabble game!
 
 ## 🔨 Usage
 ```bash
