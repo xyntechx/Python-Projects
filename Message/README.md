@@ -9,7 +9,7 @@ I simply wanted to try out the Structural Pattern Matching feature introduced in
 git clone https://github.com/xyntechx/Python-Projects.git
 ```
 ```bash
-cd Python-Projects/Message
+cd dir/to/Python-Projects/Message
 ```
 ```bash
 python main.py <options>

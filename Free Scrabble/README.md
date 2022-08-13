@@ -7,7 +7,7 @@ git clone https://github.com/xyntechx/Python-Projects.git
 ```
 
 ```bash
-cd Python-Projects/"Free Scrabble"
+cd dir/to/Python-Projects/"Free Scrabble"
 ```
 
 ```bash

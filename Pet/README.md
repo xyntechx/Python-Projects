@@ -6,7 +6,7 @@ Pet is a vanilla Python game inspired by Tamagotchi!
 git clone https://github.com/xyntechx/Python-Projects.git
 ```
 ```bash
-cd Python-Projects/Pet
+cd dir/to/Python-Projects/Pet
 ```
 ```bash
 pip install -r requirements.txt

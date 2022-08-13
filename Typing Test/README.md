@@ -7,7 +7,7 @@ git clone https://github.com/xyntechx/Python-Projects.git
 ```
 
 ```bash
-cd Python-Projects/"Typing Test"
+cd dir/to/Python-Projects/"Typing Test"
 ```
 
 ```bash
