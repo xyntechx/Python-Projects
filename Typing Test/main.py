@@ -53,6 +53,9 @@ def evaluate_accuracy(user_words, actual_words):
 
 
 if __name__ == "__main__":
+    print("I hope you've read the README file ;)")
+    print()
+    
     number_of_words = int(input("How many words do you want to type (e.g. 50)? "))
     if number_of_words <= 0:
         raise Exception("Please input a positive integer!")
