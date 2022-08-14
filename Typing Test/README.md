@@ -14,6 +14,9 @@ cd dir/to/Python-Projects/"Typing Test"
 python main.py
 ```
 
+- Press Enter to start the test
+- Press Enter again to stop the test once you have typed out all the words
+
 ## 📚 Notes
 - Typing speed is measured in characters per minute (cpm)
 - Typing accuracy is measured in terms of the percentage of correctly spelled words out of all the provided words
