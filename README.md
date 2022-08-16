@@ -1,14 +1,6 @@
 # Python Projects
 This repository is home to the many simple Python projects I have created!
 
-## 🔨 Usage
-```bash
-python <name>.py
-```
-
-Note: Replace `<name>` with the name of the file you are running!
-
-## 📚 Contents
 > ✨: latest project
 
 - [Connect 4](https://github.com/xyntechx/Python-Projects/tree/main/Connect%204)
